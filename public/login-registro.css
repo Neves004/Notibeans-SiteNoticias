@@ -1,0 +1,35 @@
+
+/*Estiliza a parte BODY para mudar a cor de fundo, tamanho e fonte*/
+body {
+    background-color: rgb(211, 211, 211);
+    font-size: 40px;
+    font-family:monospace;
+    text-align: center;
+    display: grid;
+}
+
+/*Estiliza a parte Form para mudar tamanho e fonte*/
+#login, #registro {
+    font-size: 20px;
+    font-family:verdana;
+    text-align: center;
+    display: grid;
+}
+
+/*Estiliza a parte dos Textos para mudar cor de fundo e cor de letra*/
+h1 {
+    background-color: #333;
+    color: white;
+
+}
+/*Usado para espaçamento*/
+h3 {
+    font-size: 60px;
+}
+
+/*Estiliza a parte dos formulários - Registro/Login*/
+label{
+    color:rgb(54, 45, 5);
+    font-size: 20px;
+    font-family:sans-serif;
+}

@@ -1,0 +1,91 @@
+/* Estilização de toda a Barra de Navegação */
+  #navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  #logoNav{
+    justify-content: right;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar li {
+    margin: 0 20px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: white;
+  }
+     /* Estilização do Rodapé da Página */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+   /* Estiliza o tamanho da imagem no Footer */
+  footer img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+
+
+/* Estilização da cor do Body da Página */
+body{
+    background-color: rgb(211, 211, 211);
+}
+/*Estiliza a parte h1 para mudar a cor, o tamanho, a fonte e a centralização*/
+h1{
+    color:#3d3b3a ;
+    font-size: 40px;
+    text-align: center;
+}
+/*Estiliza a parte da imagem(estética), tamanho, centralização e responsivo*/
+img{
+    width: 2000px;
+    height: 300px;
+    align-content:center;
+    text-align: center;
+    display: flex;
+}
+/*Estiliza a parte dos id(#about): cor, tamanho e fonte*/
+#about{
+    font-size: 30px;
+    font-family:monospace;
+}
+
+/*Estiliza todo o programa de forma reponsiva*/
+.container {
+    display: flex;
+  }
+/*Estiliza a parte h3, para que ela seja apenas uma linah de divisão(com a ferramenta bordas)*/
+h3{
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #000;
+  }
+
+  /* Estilização dos Títulos das Páginas */
+#tit{
+  font-size: 30px;
+  margin-left: 200px;
+}
+#sobre {
+  font-size: 20px;
+  margin-left: 200px;
+}

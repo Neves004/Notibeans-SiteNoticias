@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Título e tipagem da formatação-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!--Link para que essa página html seja estilizada pela página 'login-registro.css'-->
+    <link rel="stylesheet" type="text/css" href="/login-registro.css">
+    <!--Atribuição do ICON da página-->
+    <link rel="icon" type="image/x-icon" href="logoM.png">
+  
+</head>
+
+<body> 
+    <h3> </h3>
+    <!-- Título de inicio -->
+    <label>Faça login para saber mais sobre o mundo!</label>
+<div id="login">
+  <h1>LOGIN</h1>
+  <!-- Início do Login -->
+  <form action="/login" method="POST">
+    <!-- Pedido para inserir o Nome de Usuário -->
+    <label for="username">Nome de Usuário:</label><br>
+    <input type="text" id="username" name="username" required><br>
+
+    <!-- Pedido para inserir a Senha do Usuário -->
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha" name="senha" required><br>
+    <!-- Caso não seja registrado, o usuário clicará no link e será redirecionado a página registro -->
+    <p> Não é registrado? </p>
+    <a href="/registro"> Registre-se aqui </a> <br>
+    <p></p>
+    <!-- Botões para enviar (e entra na página inicial) ou apagar a área -->
+    <button type="submit" style="height: 30px ; width: 120px ; background-color:#333 ; color:white" href="http://localhost:3001/login">Login</button>
+  </form>
+  </div>
+</body>
+</html>

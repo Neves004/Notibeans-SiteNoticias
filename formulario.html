@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Título e tipagem da formatação-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formulário NotiBeans </title>
+        <!--Link para que essa página html seja estilizada pela página 'form.css'-->
+        <link rel = "stylesheet" href="/form.css"/>
+        <!--Atribuição do ICON da página-->
+        <link rel="icon" type="image/x-icon" href="logoM.png">
+
+        <!-- Barra de naveganação inicial-->
+        <header>
+        <nav id="navbar">
+            <ul>
+              <li><a href="/inicial">Início</a></li>
+              <li><a href="/hoje">Hoje</a></li>
+              <li><a href="/sobre">Sobre</a></li>
+              <li><a href="/formulario">Formulario</a></li>
+            </ul>
+          </nav>
+        </header>
+    </head>
+
+    <body>
+<h3> </h3>
+    <!--Nome da empresa em destaque-->
+    <h1> Formulário </h1>    
+    <!--Inicio do formulário de sugestões-->
+<div id="formularioArea">
+<section id="form" class="section">
+    <p id="deixeAqui"> * Deixe aqui sugestões de notícias que querem saber: </p>
+  </section>
+  <!--metódo de enviar respostas para dando de dados-->
+  <div id="formulario">
+  <FORM action="/enviar" method="POST">
+    <P><FONTFACE="MONOSPACE">Seu nome: <INPUT
+    TYPE=TEXT NAME="nome" SIZE="25" MAXLENGHT="60"></P>  
+    <!--Seleção de tipo de notícia-->
+    <P>Tipo de Notícia <SELECT NAME="tipo">
+            <OPTION>
+            <OPTION> ...Artistas...
+            <OPTION> ...Jogos...
+            <OPTION> ...Entretenimento...
+            <OPTION> ...Esportes...
+            <OPTION> ...Outros...  
+            </SELECT></P>
+    <!--Descrição sobre a notícia-->
+    <P>Notícia: </P><TEXTAREA NAME="noticia"
+        ROWS="5" COLS="70"></TEXTAREA></P>
+    <!--Botões de enviar e limpar formulário-->
+    <P><INPUT TYPE="submit" VALUE="enviar" style="height: 30px ; width: 120px ; background-color:#333 ; color:white"> ---- <INPUT TYPE="reset" VALUE="limpar" style="height: 30px ; width: 120px ; background-color:#333 ; color:white"></P>
+    </FORM>
+
+        <div id="resultado"></div>
+</div>
+</div>
+
+</body>
+
+<!-- Rodapé da página-->
+<footer>
+    <div class="footer-content">
+      <img src="rodape.png">
+
+    </div>
+  </footer>
+
+
+</html>
